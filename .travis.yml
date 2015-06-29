@@ -34,7 +34,6 @@ matrix:
       perl: '5.22'
 env:
   global:
-    - TRAVIS_PERL_DEBUG=1
     - RELEASE_TESTING=1
     - AUTHOR_TESTING=1
 before_install:
